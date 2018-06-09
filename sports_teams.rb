@@ -1,11 +1,6 @@
 class Sport 
-  def initialize(team, state)
-    @team = team 
+  def initialize(state)
     @state = state 
-  end 
-  
-  def team 
-    @team 
   end 
   
   def state
@@ -17,5 +12,6 @@ class Quiz
   def self.add_team(team)
     @@team << team 
   end 
-  def self.quiz_team
+  def self.quiz_team(team)
+    puts "What team plays for #{state}?"
   
