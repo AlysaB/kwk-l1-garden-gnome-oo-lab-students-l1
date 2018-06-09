@@ -17,5 +17,5 @@ class Quiz
   def self.add_team(team)
     @@team << team 
   end 
-  def self.quiz
+  def self.quiz_team
   
